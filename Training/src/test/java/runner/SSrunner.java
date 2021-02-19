@@ -10,7 +10,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 @CucumberOptions(
 	features= {"C:\\Users\\muskagup\\eclipse-workspace\\Training\\FeatureFile\\f.feature"}
 	,glue= {"stepdef","base"}
-	,tags= {"@tag1"}
+	,tags= {"@tag4"}
 )
 
 public class SSrunner extends AbstractTestNGCucumberTests{
