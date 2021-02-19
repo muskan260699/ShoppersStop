@@ -1,0 +1,8 @@
+<suite name="Shoppers Stop Suite">
+<test name="Shoppers Stop">
+<classes>
+<class name="base.SSbase"/>
+<class name="runner.SSrunner"/>
+</classes>
+</test>
+</suite>
