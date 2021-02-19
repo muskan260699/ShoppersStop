@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="shoppersStopSuite">
+	<test name="testShoppersStop">
+		<classes>
+			<class name = "base.ShoppersStop_Base"/>
+			<class name = "testRunner.SelectPro_testRunner"/>
+		</classes>
+	</test>
+</suite>
