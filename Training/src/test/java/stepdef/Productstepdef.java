@@ -7,6 +7,7 @@ import cucumber.api.java.en.When;
 import page.Products;
 
 public class Productstepdef {
+	
 	Products p=new Products();
 	@Given("^user is on shoppers stop site$")
 	public void user_is_on_shoppers_stop_site() throws Throwable {
