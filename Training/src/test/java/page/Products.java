@@ -11,7 +11,6 @@ import cucumber.api.cli.Main;
 
 public class Products extends SSbase{
 	static @FindBy(xpath="//input[@name='q']") WebElement search;
-	//static @FindBy(linkText="Shoppers Stop") WebElement site;
 	@FindBy(xpath="//a[text()='BEAUTY']") WebElement hoverbeauty;
 	//static @FindBy(linkText="Make Up") WebElement makeup;
 	//static @FindBy(linkText="BB & CC Cream") WebElement bnc;
