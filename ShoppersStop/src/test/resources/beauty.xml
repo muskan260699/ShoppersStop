@@ -1,0 +1,8 @@
+<suite name="beautySuite">
+	<test name="beautyTest">
+		<classes>
+			<class name="base.BeautyBase"/>
+			<class name="testRunner.BeautyRunner"/>
+		</classes>
+	</test>
+</suite>
