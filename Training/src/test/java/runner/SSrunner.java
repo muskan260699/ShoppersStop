@@ -8,7 +8,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-	features= {"FeatureFile/f.feature"}
+	features= {"C:\\Users\\muskagup\\eclipse-workspace\\Training\\FeatureFile\\f.feature"}
 	,glue= {"stepdef","base"}
 	,tags= {"@tag4"}
 )
