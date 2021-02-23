@@ -1,7 +1,6 @@
 
-@tag
+@tag4
 Feature: Products
-  @tag4
   Scenario: Chose any product
     Given user is on shoppers stop site
     When hover on any tab

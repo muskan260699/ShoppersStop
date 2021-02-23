@@ -4,6 +4,16 @@
   <artifactId>Training</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <dependencies>
+  
+  <!-- https://mvnrepository.com/artifact/com.sun/tools -->
+<dependency>
+    <groupId>com.sun</groupId>
+    <artifactId>tools</artifactId>
+    <version>1.8</version>
+    <scope>system</scope>
+    <systemPath>C:\Program Files\Java\jdk1.8.0_281\lib\tools.jar</systemPath>
+</dependency>
+  
   <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
