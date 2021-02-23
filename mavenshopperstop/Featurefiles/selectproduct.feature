@@ -2,7 +2,6 @@
 @selectproduct
 Feature: select BB & CC Cream 
 
-
   Scenario: Select a product
     Given user is on shoppers stop homepage
     When user clicks beauty
