@@ -1,5 +1,6 @@
 package pages;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
@@ -12,6 +13,7 @@ public class Beauty extends BeautyBase {
 	static @FindBy(xpath="//a[text()='BEAUTY']") WebElement beauty;
 	static @FindBy(linkText="BB & CC Cream") WebElement bb;
 	static @FindBy(linkText="Make Up") WebElement makeup;
+	
 	
 	public Beauty() {
 		PageFactory.initElements(driver, this);

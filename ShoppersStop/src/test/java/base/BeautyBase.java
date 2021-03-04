@@ -10,6 +10,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
+import cucumber.api.java.After;
+import cucumber.api.java.Before;
+
 public class BeautyBase {
 	
 	public static WebDriver driver;
@@ -25,12 +28,12 @@ public class BeautyBase {
 		}
 		if(prop.getProperty("browser").matches("chrome"))
 		{
-				System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\Training\\driver\\chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\ShoppersStop\\driver\\chromedriver.exe");
 				driver = new ChromeDriver();
 		}
 		if(prop.getProperty("browser").matches("firefox"))
 		{
-			System.setProperty("webdriver.firefox.driver", "C:\\Selenium\\Training\\driver\\geckodriver.exe");
+			System.setProperty("webdriver.firefox.driver", "C:\\Selenium\\ShoppersStop\\driver\\geckodriver.exe");
 			driver=new FirefoxDriver();
 		}
 		driver.manage().window().maximize();

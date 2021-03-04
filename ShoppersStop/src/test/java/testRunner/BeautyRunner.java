@@ -10,6 +10,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 @CucumberOptions(
 		features = {"features/beauty.feature"}
 		,glue = {"stepDefinition","base"}
+		,tags= {"@shop"}
 		)
 
 public class BeautyRunner extends AbstractTestNGCucumberTests {

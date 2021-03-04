@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="beautySuite" duration-ms="10618" started-at="2021-02-19T11:32:16 IST" finished-at="2021-02-19T11:32:26 IST">
+  <suite name="beautySuite" duration-ms="42096" started-at="2021-02-27T13:40:46 IST" finished-at="2021-02-27T13:41:28 IST">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.BeautyRunner@5faeada1]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="beautyTest" duration-ms="10618" started-at="2021-02-19T11:32:16 IST" finished-at="2021-02-19T11:32:26 IST">
+    <test name="beautyTest" duration-ms="42096" started-at="2021-02-27T13:40:46 IST" finished-at="2021-02-27T13:41:28 IST">
       <class name="testRunner.BeautyRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testRunner.BeautyRunner@5faeada1]" name="setUpClass" is-config="true" duration-ms="411" started-at="2021-02-19T11:32:16 IST" finished-at="2021-02-19T11:32:16 IST">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testRunner.BeautyRunner@5faeada1]" name="setUpClass" is-config="true" duration-ms="415" started-at="2021-02-27T13:40:46 IST" finished-at="2021-02-27T13:40:46 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.BeautyRunner@5faeada1]" name="feature" duration-ms="10017" started-at="2021-02-19T11:32:16 IST" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-02-19T11:32:26 IST">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.BeautyRunner@5faeada1]" name="feature" duration-ms="41494" started-at="2021-02-27T13:40:46 IST" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-02-27T13:41:28 IST">
           <params>
             <param index="0">
               <value>
@@ -25,17 +25,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testRunner.BeautyRunner@5faeada1]" name="tearDownClass" is-config="true" duration-ms="5" started-at="2021-02-19T11:32:26 IST" finished-at="2021-02-19T11:32:26 IST">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testRunner.BeautyRunner@5faeada1]" name="tearDownClass" is-config="true" duration-ms="5" started-at="2021-02-27T13:41:28 IST" finished-at="2021-02-27T13:41:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- testRunner.BeautyRunner -->
       <class name="base.BeautyBase">
-        <test-method status="PASS" signature="initialze()[pri:0, instance:base.BeautyBase@7a1ebcd8]" name="initialze" is-config="true" duration-ms="4132" started-at="2021-02-19T11:32:12 IST" finished-at="2021-02-19T11:32:16 IST">
+        <test-method status="PASS" signature="initialze()[pri:0, instance:base.BeautyBase@7a1ebcd8]" name="initialze" is-config="true" duration-ms="4706" started-at="2021-02-27T13:40:41 IST" finished-at="2021-02-27T13:40:46 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialze -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:base.BeautyBase@7a1ebcd8]" name="teardown" is-config="true" duration-ms="1434" started-at="2021-02-19T11:32:27 IST" finished-at="2021-02-19T11:32:28 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:base.BeautyBase@7a1ebcd8]" name="teardown" is-config="true" duration-ms="1927" started-at="2021-02-27T13:41:28 IST" finished-at="2021-02-27T13:41:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
